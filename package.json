@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "vite-plugin-ruby": "^3.2.2"
+  },
+  "dependencies": {
+    "@rails/activestorage": "^7.0.7-2",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "actioncable": "^5.2.8-1",
+    "actioncable-vue": "^2.5.1",
+    "axios": "^1.5.0",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^4.2.4"
+  }
+}

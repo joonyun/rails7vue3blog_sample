@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>    
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <meta name="og:site_name" content="레일즈와 뷰로 블로그 만들기" />
+    <meta name="og:title" content="레일즈7에 뷰3 셋팅" />
+    <meta
+      name="og:description"
+      content="레일즈7를 백엔드로 사용하고 프론트엔드를 삽입하여 사용하는 프로그램을 작성합니다."
+    />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="https://" />
+    <meta
+      name="og:image"
+      content="https://"
+    />
+  </head>
+
+  <body>
+    <%= yield %>
+     <!— 추가 —>
+    <div id="app"></div>
+    <%= vite_javascript_tag 'main' %>
+
+  </body>
+</html>
